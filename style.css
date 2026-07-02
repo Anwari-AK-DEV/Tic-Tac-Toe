@@ -1,0 +1,111 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #1F6F5F;
+
+ }
+
+ h1 {
+     display: block;
+     justify-content: center;
+     align-items: center;
+     font-size: 4rem;
+ }
+
+ .container {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 1rem;
+     width: 60vmin;
+     height: 60vmin;
+     margin-top: 6vmin;
+ }
+
+ .box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 15px;
+     border: none;
+     background-color: #dadada;
+     width: 18vmin;
+     height: 18vmin;
+     color: #000100;
+     font-size: 6.5rem;
+
+
+ }
+
+ .restart {
+     width: 50vmin;
+     height: 30vmin;
+     display: flex;
+     flex-direction: row;
+     gap: 2rem;
+ }
+
+ .newgame,
+ .restartgame {
+     width: 30vmin;
+     height: 7vmin;
+     border-radius: 15px;
+     background-color: red;
+     font-size: 1.5rem;
+     margin-top: 5rem;
+ }
+
+ #hide {
+     display: none;
+     font-size: 15vmin;
+     color: #d80606;
+     margin-top: 1vmin;
+     margin-bottom: 1vmin;
+
+ }
+
+ .scoreboard {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 10vmin;
+     width: 50vmin;
+     /* gap: 4rem; */
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     margin-top: 4rem;
+
+
+ }
+
+ #Oscore,
+ #Xscore {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 40vmin;
+     height: 3vmin;
+     font-size: 3rem;
+     flex-direction: column;
+
+
+ }
+
+ .O,
+ .X {
+     color: rgb(0, 0, 0);
+     font-weight: bold;
+     margin: 0;
+ }
