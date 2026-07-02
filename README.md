@@ -33,5 +33,5 @@ A classic Tic Tac Toe game built with HTML, CSS & JavaScript.
    ```bash
    git clone https://tic-tac-toe-by-ak.netlify.app/ 
 ## Future Updates
-- **mprove mobile responsiveness
+- **Improve mobile responsiveness
 - **Add sound effects
